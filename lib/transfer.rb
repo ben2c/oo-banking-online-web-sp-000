@@ -18,5 +18,5 @@ class Transfer
       @receiver.amount += @sender.amount
     end
   end
-  
+
 end
