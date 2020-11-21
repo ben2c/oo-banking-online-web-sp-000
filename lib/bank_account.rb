@@ -3,8 +3,7 @@ class BankAccount
 
 
   def initialize (name)
-    const cant_name = name
-    @name = cant_name
+    const @name = name
     @balance = 1000
     @status = 'open'
   end
