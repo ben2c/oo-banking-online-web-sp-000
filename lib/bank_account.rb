@@ -3,7 +3,7 @@ class BankAccount
 
 
   def initialize (name)
-    const @name = name
+    @name = name
     @balance = 1000
     @status = 'open'
   end
