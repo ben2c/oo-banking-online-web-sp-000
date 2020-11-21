@@ -15,7 +15,7 @@ class Transfer
 
   def execute_transaction
     if @sender.valid?
-      self.@receiver.amount += self.@sender.amount
+      @receiver.amount += @sender.amount
     end
   end
 
